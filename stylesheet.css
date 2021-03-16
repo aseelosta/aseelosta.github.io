@@ -1,0 +1,27 @@
+body {
+  background-color:rgba(241, 12, 241, 0.76);
+  }
+  h1 {
+    text-align: center;
+    font-size: 300%;
+    background-color:#f53363;
+  }
+  h2{
+    text-align: center;
+    background-color:#f53363;
+  }
+  p{
+    text-align: center;
+    background-color:rgb(212, 160, 160);
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .aseel{
+    text-align: center;
+  } 
+  .asool{
+    border:10px double red;
+  }
+  .school{
+    border:2px solid black;
+  }
+  
