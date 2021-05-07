@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>page</title>
+    </head>
+    <body>
+        <a href="index.html.html" >return to My page</a>
+        <form name="asool">
+        <h1 style="font-size:  50px;">Internship Application</h1>
+        <p>Please fill out the form below and hit submit to be considered for the internship</p>
+        <fieldset>
+            <legend>
+                Personalia:
+            </legend>
+            First Name:<input type="text" name="first " id="fname" onclick="returnn(this),last_index(1)"required><br>
+            Last Name:<input type="text" name=" last" id="lname" onclick="returnn(this),last_index(2)"required><br>
+            Personal Website:<input type="url" name="Website" id="web"  onclick="returnn(this),last_index(3)"required><br>
+            Enter a Phone Number:<input type="tel" name="phone" placeholder="123-45-678" id="phone" onclick="returnn(this),last_index(4)"required><br>
+            Enter Your Email:<input type="email" name="email" id="email" onclick="returnn(this),last_index(5)"required><br>
+            Username:<input type="text" name="user" id="user" onclick="returnn(this),last_index(6)"required><br>   
+            Password:<input type="password" name="pass" id="pass" onclick="returnn(this),last_index(7)"required>
+        </fieldset>
+        <fieldset>
+
+            <legend>Education:</legend>
+            Degree:
+            
+            <select id="deg" name="deg"  onclick="returnn(this),last_index(😎"required >
+                <option value="empty"></option>
+                <option value="Asso">Associate</option>
+                <option value="BA">Bachelor</option>
+                <option value="MA">Masters</option>
+                <option value="phd">Ph.D</option>
+                <option value="other">other</option><br>
+            </select>
+            <br>
+
+
+
+
+            <label for="birthday">When will you graduate:</label>
+            <input type="date" id="birthday" name="birthday" required onclick="last_index(9)" max="2022-5-30"><br>
+            <label for="upload"> Upload your CV  and other documents:</label> 
+            <input type="file" id="upload" name="upload" required multiple><br><br> 
+        </fieldset>
+   
+            <br>
+            <button type="submit" onclick="submit_file()" >Submit</button>  
+                
+        </fieldset>
+
+
+
+
+
+        
+ <button onclick="save_file()">Save</button>
+ <button type="reset">Reset</button>
+
+
+
+
+ 
+    </form>
+    <script src="Mypage.js"></script>
+    </body>
+</html>
